@@ -56,7 +56,7 @@ spec:
     spec:
       containers:
         - name: web-server
-          image: apuhl/kube-news:v1
+          image: apuhl/kube-news:{{TAG}}
           env:
             - name: DB_PASSWORD
               value: "pgsql#123"
